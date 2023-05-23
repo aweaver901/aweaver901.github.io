@@ -1,0 +1,1105 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*****************************/
+
+body{
+    background: #1E2025;
+}
+
+
+/************Top Header**************/
+
+.logo{
+    width: 50px;
+    height: 70px;
+    padding:5px 0px 0px 5px;
+    margin-top: 1px;
+    margin-left: 10px;
+}
+.logo2{
+    width: 50px;
+    height: 55px;
+    position:absolute;
+    align-content: center;
+    left:90%;
+    bottom: -85%;
+}
+
+#header
+{
+    box-shadow: 0 5px 2px -2px rgba(0,0,0,.2);
+    height: 60px;
+    position: relative;
+    background-color: #1E2025;
+}
+
+/**Start of Navigation**/
+#navbarNav{
+    position:absolute;
+    left: 40%;
+    top: 30px;
+}
+
+#navbarNav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+#navbarNav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+#navbarNav ul li a #testImg{
+    text-decoration: none;
+    height: 50px;
+    margin-left: 100px;
+    margin-bottom: 15px;
+
+}
+
+#navbarNav ul li a:hover {
+    text-decoration: underline;
+    color: yellow;
+}
+
+/**Universal Styles**/
+html{
+    font-family: 'Inter', sans-serif;
+}
+
+b{
+    color: white;
+    font-size:35px;
+    font-weight:bolder;
+    margin: 20px 0;
+}
+
+h1{
+    color: white;
+    font-size:60px;
+    font-weight:800;
+    margin: 20px 0;
+}
+
+h2{
+    color: white;
+    font-size:35px;
+    font-weight:700;
+    margin: 20px 0;
+}
+
+h3{
+    color:white;
+    font-size: 20px;
+}
+
+h4{
+    color: white;
+    font-size: 18px;
+    font-weight:600;
+}
+
+h5{
+    color: lightslategrey;
+    font-size: 16px;
+}
+
+p{
+    color:#485259;
+    font-weight:400;
+    line-height: 30px;
+}
+
+
+/**Start of Hero Banner**/
+header{
+    width: 100%;
+    padding: 20px;
+}
+
+.heroSpacing{
+    padding:50px 100px;
+
+}
+
+.heroSpacing h1{
+    position:absolute;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.heroSpacing h2{
+    position:absolute;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+.heroSpacing h3{
+    position:absolute;
+    margin-top: 300px;
+    margin-left: 200px;
+    margin-right: 700px;
+}
+
+
+
+
+.heroSpacing2{
+    padding:50px 100px;
+}
+
+.heroSpacing2 #one img{
+    width: 1000px;
+    margin-left:150px;
+}
+
+.heroSpacing2 #two img{
+    width: 685px;
+    margin-left: 200px;
+}
+
+
+.heroSpacing3{
+    padding:50px 100px;
+}
+
+.heroSpacing3 h2{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 500px;
+    margin-right: 20px;
+}
+
+
+/**Start of Footer **/
+
+#test h5{
+    position: absolute;
+    margin-left: 210px;
+    margin-top: -20px;
+    font-size: 30px;
+
+}
+
+#test img{
+    margin-top: 50px;
+    margin-left: 350px;
+    width: 50px;
+}
+
+#test{
+    padding-bottom: 100px;
+}
+
+
+/**Start of About Me Section **/
+.aboutSpace video{
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+.aboutSpace h2{
+    position: absolute;
+    margin-left: 810px;
+    margin-top: 130px;
+    color: white;
+}
+
+.aboutSpace h3{
+    position: absolute;
+    margin-left: 850px;
+    margin-top: 230px;
+    color: white;
+}
+
+.aboutSpace p{
+    font-size: 16px;
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 300px;
+    margin-right: 450px;
+    color: white;
+}
+
+.aboutSpace #shade{
+    background-color: dimgray;
+    opacity: .7;
+    width: 1000px;
+    height: 350px;
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 420px;
+
+}
+
+
+/**Work Experience**/
+.work2 h2{
+    position: absolute;
+    margin-top: 750px;
+    margin-left: 800px;
+    color: white;
+}
+.work2 h3{
+    position: absolute;
+    margin-top: 850px;
+    margin-left: 840px;
+    color: white;
+}
+.work2 p{
+    font-size: 16px;
+    position: absolute;
+    margin-top: 950px;
+    margin-left: 400px;
+    margin-right: 400px;
+    color: white;
+}
+
+
+.work3 img{
+    position: absolute;
+    margin-top: 1100px;
+    margin-left: 400px;
+    width: 1000px;
+    height: 500px;
+    color: white;
+}
+
+.work3 h2{
+    position: absolute;
+    margin-top: 1650px;
+    margin-left: 800px;
+    color: white;
+}
+.work3 h3{
+    position: absolute;
+    margin-top: 1750px;
+    margin-left: 800px;
+    color: white;
+}
+.work3 p{
+    font-size: 16px;
+    position: absolute;
+    margin-top: 1850px;
+    margin-left: 500px;
+    margin-right: 500px;
+    color: white;
+}
+
+.work4 img{
+    position: absolute;
+    margin-top: 2000px;
+    margin-left: 400px;
+    width: 1000px;
+    height: 500px;
+}
+
+.work4 h2{
+    position: absolute;
+    margin-top: 2550px;
+    margin-left: 750px;
+    color: white;
+}
+.work4 h3{
+    position: absolute;
+    margin-top: 2650px;
+    margin-left: 800px;
+    color: white;
+}
+.work4 p{
+    font-size: 16px;
+    position: absolute;
+    margin-top: 2750px;
+    margin-left: 500px;
+    margin-right: 500px;
+    color: white;
+}
+
+
+.work5 img{
+    position: absolute;
+    margin-top: 3000px;
+    margin-left: 400px;
+    width: 1000px;
+    height: 500px;
+}
+
+.work5 h2{
+    position: absolute;
+    margin-top: 3550px;
+    margin-left: 750px;
+    color: white;
+}
+.work5 h3{
+    position: absolute;
+    margin-top: 3650px;
+    margin-left: 770px;
+    color: white;
+}
+.work5 p{
+    position: absolute;
+    margin-top: 3750px;
+    margin-left: 500px;
+    margin-right: 500px;
+    color: white;
+}
+
+
+/**Start of About Footer**/
+
+#test2 h5{
+    position: absolute;
+    margin-left: 210px;
+    margin-top: 4000px;
+    font-size: 30px;
+    
+
+}
+
+#test2 img{
+    margin-top: 4100px;
+    margin-left: 350px;
+    width: 50px;
+}
+
+#test2{
+    padding-bottom: 100px;
+}
+
+/**Start of Contact Page**/
+.aboutSpace2 #shade2{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 240px;
+    width: 800px;
+    height: 600px;
+    background-color: grey;
+    border-radius: 10px 0 0 0;
+}
+
+.aboutSpace2 .contactImg{
+    position: absolute;
+    height: 600px;
+    width:600px;
+    margin-top: 100px;
+    margin-left: 100px;
+    border-radius: 0 10px;
+}
+
+.aboutSpace2 .contactImg2{
+    position: absolute;
+    height: 400px;
+    width:1397px;
+    margin-top: 640px;
+    margin-left:237px;
+}
+
+
+.aboutSpace2 h2{
+    position: absolute;
+    margin-top: 230px;
+    margin-left: 530px;
+}
+
+.aboutSpace2 h3{
+    position: absolute;
+    margin-top: 305px;
+    margin-left: 440px;
+}
+
+.aboutSpace2 h4{
+    position: absolute;
+    margin-top: 380px;
+    margin-left: 530px;
+}
+
+.aboutSpace2 h5{
+    position: absolute;
+    margin-top: 455px;
+    margin-left: 570px;
+    color:white;
+}
+
+
+#test3 h5{
+    position: absolute;
+    margin-top: 1300px;
+    margin-left: 300px;
+}
+
+#test3 img{
+    margin-top: 1400px;
+    margin-left: 350px;
+    width:50px;
+    padding-bottom: 100px;
+}
+
+/**Start of Portfolio Page **/
+
+
+.portDesc h2{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 800px;
+}
+
+.portDesc h3{
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+.portDesc h4{
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 600px;
+}
+
+
+
+.portDesc2 b{
+    position: absolute;
+    margin-top: 335px;
+    margin-left: 150px;
+    
+}
+
+.portDesc2 #imgOne{
+    position: absolute;
+    width: 45%;
+    margin-top: 430px;
+
+}
+
+.portDesc2 #imgTwo{
+    position: absolute;
+    width: 45%;
+    margin-top: 430px;
+
+}
+
+.portDesc3 b{
+    position: absolute;
+    margin-top: 1130px;
+    margin-left: 100px;
+}
+
+.portDesc3 #imgOne{
+    position: absolute;
+    width: 45%;
+    margin-top: 1283px;
+}
+.portDesc3 #imgTwo{
+    position: absolute;
+    width: 45%;
+    margin-top: 1233px;
+}
+
+
+.portDesc4 b{
+    position: absolute;
+    margin-top: 1930px;
+    margin-left: 100px;
+}
+
+.portDesc4 #imgOne{
+    position: absolute;
+    width: 45%;
+    margin-top: 2033px;
+}
+.portDesc4 #imgTwo{
+    position: absolute;
+    width: 45%;
+    margin-top: 2033px;
+}
+
+
+.portDesc5 b{
+    position: absolute;
+    margin-top: 2930px;
+    margin-left: 100px;
+}
+
+.portDesc5 #imgOne{
+    position: absolute;
+    width: 50%;
+    margin-top: 3033px;
+    margin-left: 400px;
+}
+
+#test4 h5{
+    position: absolute;
+    margin-top: 4500px;
+    margin-left: 250px;
+}
+
+#test4 img{
+    position: absolute;
+    margin-top: 4550px;
+    margin-left: 290px;
+    width: 100px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    header{
+        text-align: center;    
+    }
+
+    header h1{
+        font-size: 40px;
+    }
+
+    .heroSpacing{
+        padding: 30px;
+    }
+
+    .heroSpacing h1{
+        position: absolute;
+        margin-top: 550px;
+        margin-left: -10px;
+
+    }
+
+    .heroSpacing h2{
+        position: absolute;
+        margin-top: 630px;
+        margin-left: 70px;
+
+    }
+
+    .heroSpacing h3{
+        position: absolute;
+        margin-top: 700px;
+        margin-left: 70px;
+        margin-right: 70px;
+
+    }
+
+
+    a.navbar-brand{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        margin: 0 auto;
+        width: 60px;
+    }
+    .navbar{
+        --bs-navbar-padding-y: 0.9rem;
+    }
+
+    .containerNavMobile{
+        display:inline-block;
+        cursor:pointer; /**Changes the cursor styling **/
+    }
+
+    .bar1, .bar2, .bar3{
+        width: 25px;
+        height: 3px;
+        background-color: #c20726;
+        margin: 5px 0;
+        border-radius: 3px;
+        transition: 0.4s;
+    }
+
+    .change .bar1{
+        transform:translate(0px,9px) rotate(-45deg);
+    }
+
+    .change .bar2{
+        opacity: 0;
+    }
+
+    .change .bar3{
+        transform: translate(.5px,-7.5px) rotate(45deg);
+    }
+
+    .container{
+        padding: 0 80px;
+    }
+
+    .heroSpacing2 #one img{
+        position: absolute;
+        width: 500px;
+        margin-top: 500px;
+        margin-left: -250px;
+
+    }
+    .heroSpacing2 #two img{
+        position: absolute;
+        width: 500px;
+        margin-top: 800px;
+        margin-left: -250px;
+
+    }
+
+    .heroSpacing3 img{
+        position: absolute;
+        width: 500px;
+        margin-top: 1100px;
+        margin-left: -250px;
+    }
+
+    .heroSpacing3 h2{
+        position: absolute;
+        margin-top: 1650px;
+        margin-left: -100px;
+    }
+
+    #test h5{
+        position: absolute;
+        margin-top: 1750px;
+        margin-left: 40px;
+    }
+
+    #test img{
+        position: absolute;
+        margin-top: 1850px;
+        margin-left: 200px;
+    }
+
+    /**About Mobile Section **/
+
+
+
+    .aboutSpace video{
+        width: 440px;
+        height:240px;
+        position: absolute;
+        margin-left: -220px;
+        margin-top: 30px;
+    }
+    .aboutSpace h2{
+        position: absolute;
+        margin-left: 140px;
+        margin-top: 300px;
+    }    
+
+    .aboutSpace h3{
+        position: absolute;
+        margin-left: 180px;
+        margin-top: 360px;
+    }
+
+    .aboutSpace p{
+        font-size: 14px;
+        position: absolute;
+        margin-left: 50px;
+        margin-top: 400px;
+        margin-right: 50px;
+        color: white;
+    }
+
+    .aboutSpace #shade{
+        background-color: dimgray;
+        width: 400px;
+        height: 370px;
+        position: absolute;
+        margin-top: 280px;
+        margin-left: 20px;
+    }
+
+
+    /**Work Experience**/
+    .work2 h2{
+        position: absolute;
+        margin-top: 750px;
+        margin-left: 110px;
+    }
+    .work2 h3{
+        position: absolute;
+        margin-top: 850px;
+        margin-left: 160px;
+    }
+    .work2 p{
+
+        font-size: 16px;
+        position: absolute;
+        margin-top: 930px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .work3 img{
+        position: absolute;
+        margin-top: 1280px;
+        margin-left: -200px;
+        width: 400px;
+        height: 200px;
+    }
+
+    .work3 h2{
+        position: absolute;
+        margin-top: 1500px;
+        margin-left: 100px;
+    }
+
+    .work3 h3{
+        position: absolute;
+        margin-top: 1580px;
+        margin-left: 90px;
+    }
+    .work3 p{
+        font-size: 16px;
+        position: absolute;
+        margin-top: 1650px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .work4 img{
+        position: absolute;
+        margin-top: 1850px;
+        margin-left: -200px;
+        width: 400px;
+        height: 200px;
+    }
+
+    .work4 h2{
+        position: absolute;
+        margin-top: 2100px;
+        margin-left: 50px;
+    }
+    .work4 h3{
+        position: absolute;
+        margin-top: 2200px;
+        margin-left: 90px;
+    }
+    .work4 p{
+        font-size: 16px;
+        position: absolute;
+        margin-top: 2250px;
+        margin-left: 50px;
+        margin-right: 50px;
+        line-height: 23px;
+
+    }
+
+
+    .work5 img{
+        position: absolute;
+        margin-top: 2500px;
+        margin-left: -200px;
+        width: 400px;
+        height: 200px;
+    }
+
+    .work5 h2{
+        position: absolute;
+        margin-top: 2750px;
+        margin-left: 70px;
+    }
+    .work5 h3{
+        position: absolute;
+        margin-top: 2850px;
+        margin-left: 80px;
+    }
+    .work5 p{
+        position: absolute;
+        margin-top: 2950px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+
+
+    /**Start of About Footer**/
+
+    #test2 h5{
+        position: absolute;
+        margin-left: 130px;
+        margin-top: 3300px;
+        font-size: 20px;
+
+    }
+
+    #test2 img{
+        margin-top: 3400px;
+        margin-left: 200px;
+        width: 50px;
+    }
+
+    #test2{
+        padding-bottom: 100px;
+    }
+
+
+    /**Start of Contact Mobile**/
+
+    .aboutSpace2 #shade2{
+        position: absolute;
+        margin-top: 500px;
+        margin-left: 10px;
+        width: 400px;
+        height: 300px;
+        background-color: grey;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .aboutSpace2 .contactImg{
+        position: absolute;
+        height: 400px;
+        width: 400px;
+        margin-top: 100px;
+        margin-left: -200px;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .aboutSpace2 .contactImg2{
+        position: absolute;
+        height:100px;
+        width:400px;
+        margin-top: 760px;
+        margin-left:-200px;
+
+    }
+
+
+    .aboutSpace2 h2{
+        position: absolute;
+        margin-top: 520px;
+        margin-left: 100px;
+    }
+
+    .aboutSpace2 h3{
+        position: absolute;
+        margin-top: 590px;
+        margin-left: 10px;
+        margin-right: 40px;
+    }
+
+    .aboutSpace2 h4{
+        position: absolute;
+        margin-top: 650px;
+        margin-left: 100px;
+    }
+
+    .aboutSpace2 h5{
+        position: absolute;
+        margin-top: 700px;
+        margin-left: 150px;
+        color:white;
+    }
+
+
+    #test3 h5{
+        position: absolute;
+        margin-top: 950px;
+        margin-left: 150px;
+    }
+
+    #test3 img{
+        margin-top: 1000px;
+        margin-left: 210px;
+        width:50px;
+        padding-bottom: 100px;
+    }
+
+    /**Start of Portfolio Page **/
+
+
+    .portDesc h2{
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 125px;
+    }
+
+    .portDesc h3{
+        position: absolute;
+        margin-top: 170px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .portDesc h4{
+        position: absolute;
+        margin-top: 350px;
+        margin-left: 10px;
+    }  
+
+
+
+    .portDesc2 b{
+        position: absolute;
+        margin-top: 405px;
+        margin-left: -105px;  
+    }
+
+    .portDesc2 #imgOne{
+        position: absolute;
+        width: 90%;
+        margin-top: 450px;
+        margin-left: -213px;
+
+    }
+
+    .portDesc2 #imgTwo{
+        position: absolute;
+        width: 90%;
+        margin-top: 730px;
+        margin-left: -213px;
+    }
+
+    .portDesc3 b{
+        position: absolute;
+        margin-top: 1030px;
+        margin-left: -150px;
+    }
+
+    .portDesc3 #imgOne{
+        position: absolute;
+        width: 90%;
+        margin-top: 1123px;
+        margin-left: -213px;
+    }
+
+    .portDesc3 #imgTwo{
+        position: absolute;
+        width: 90%;
+        margin-top: 1433px;
+        margin-left: -213px;
+    }
+
+
+    .portDesc4 b{
+        position: absolute;
+        margin-top: 1830px;
+        margin-left: -90px;
+    }
+
+    .portDesc4 #imgOne{
+        position: absolute;
+        width: 90%;
+        margin-top: 1933px;
+        margin-left: -213px;
+    }
+
+    .portDesc4 #imgTwo{
+        position: absolute;
+        width: 90%;
+        margin-top: 2333px;
+        margin-left: -213px;
+    }
+
+
+    .portDesc5 b{
+        position: absolute;
+        margin-top: 2830px;
+        margin-left: -200px;
+    }
+
+    .portDesc5 #imgOne{
+        position: absolute;
+        width: 90%;
+        margin-top: 3033px;
+        margin-left: -213px;
+    }
+
+    #test4 h5{
+        position: absolute;
+        margin-top: 3800px;
+        margin-left: 150px;
+    }
+
+
+    #test4 img{
+        position: absolute;
+        margin-top: 3850px;
+        margin-left: 190px;
+        width: 20%;
+    }
+
+
+    #navbarNav ul li a #testImg{
+        position: absolute;
+        margin-left: -90px;
+        margin-bottom: 120px;
+    }
+
+
+    #navbarNav ul li a #one{
+        position: absolute;
+        margin-top: 80px;
+        margin-left: -100px;
+    }
+
+    #navbarNav ul li a #two{
+        position: absolute;
+        margin-top: 65px;
+        margin-left: -20px;
+    }
+    #navbarNav ul li a #three{
+        position: absolute;
+        margin-top: 50px;
+        margin-left: 40px;
+    }
+
+    #navbarNav ul li a #four{
+        position: absolute;
+        margin-top: 34px;
+        margin-left: 100px;
+    }
+
+    #navbarNav ul li a #five{
+        position: absolute;
+        margin-top: -50px;
+        margin-left: 0;
+    }
+
+    html{
+        background: #1E2025;
+        font-family: 'Playfair Display', serif;
+    }
+}
+
+
+/**End of Main Page**/
